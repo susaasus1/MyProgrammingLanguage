@@ -1,0 +1,11 @@
+number n = 0
+read(n)
+n = 10 + 20
+number b = 13
+n = 15 + b
+write(n)
+number var1 = 10
+number var2 = 5
+number answer = 0
+answer = var1 / var2
+answer = var1 * var2

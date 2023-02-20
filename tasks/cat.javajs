@@ -1,0 +1,4 @@
+string cat = ""
+read(cat)
+write(cat)
+

@@ -1,0 +1,61 @@
+[
+    {
+        "opcode": "RD_BUF",
+        "arg": 0
+    },
+    {
+        "opcode": "MOV",
+        "arg": "10"
+    },
+    {
+        "opcode": "ADD",
+        "arg": "$20"
+    },
+    {
+        "opcode": "WR_MEM",
+        "arg": 0
+    },
+    {
+        "opcode": "MOV",
+        "arg": "15"
+    },
+    {
+        "opcode": "ADD",
+        "arg": 1
+    },
+    {
+        "opcode": "WR_MEM",
+        "arg": 0
+    },
+    {
+        "opcode": "WR_BUF",
+        "arg": 0
+    },
+    {
+        "opcode": "RD_MEM",
+        "arg": 2
+    },
+    {
+        "opcode": "DIV",
+        "arg": 3
+    },
+    {
+        "opcode": "WR_MEM",
+        "arg": 4
+    },
+    {
+        "opcode": "RD_MEM",
+        "arg": 2
+    },
+    {
+        "opcode": "MUL",
+        "arg": 3
+    },
+    {
+        "opcode": "WR_MEM",
+        "arg": 4
+    },
+    {
+        "opcode": "HLT"
+    }
+]

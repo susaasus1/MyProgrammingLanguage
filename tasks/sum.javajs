@@ -1,0 +1,7 @@
+number counter = 20
+number answer = 0
+while(counter)
+answer = answer + counter
+counter = counter - 1
+endWhile
+write(answer)

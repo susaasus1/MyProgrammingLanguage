@@ -1,0 +1,17 @@
+number answer = 9699690
+number divider = 19
+number mod = 0
+while(divider)
+mod = answer % divider
+if(mod==0)
+divider = divider - 1
+else
+answer = answer+9699690
+divider = 19
+endIf
+if(divider==1)
+write(answer)
+else
+endIf
+endWhile
+
